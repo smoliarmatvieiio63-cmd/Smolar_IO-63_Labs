@@ -50,6 +50,7 @@
 Алгоритм 2:
 Блок-схема алгоритму 2 (23 варіант)
 <img width="952" height="913" alt="Знімок екрана 2026-10-07 174906" src="https://github.com/user-attachments/assets/f1957395-37c8-4b36-aab4-b689a6708ca0" />
+
 Тест 1.1
 <img width="758" height="163" alt="Знімок екрана 2026-10-07 175702" src="https://github.com/user-attachments/assets/4604ed27-07fc-415b-a513-16f8a1b50ecf" />
 
