@@ -11,13 +11,13 @@ int main(void) {
     }
 
     double S = 0.0;
-    long long ops = 0; // Лічильник кількості операцій
+    long long ops = 0; 
 
-    ops++; // double S = 0.0
-    ops++; // int i = 0
+    ops++; 
+    ops++; 
 
     for (int i = 0; i <= n; i++) {
-        ops++; // Перевірка i <= n
+        ops++; 
 
         // 1. Визначення знака (-1)^i
         double sign = (i % 2 == 0) ? 1.0 : -1.0;
@@ -28,34 +28,32 @@ int main(void) {
         int j = 0;
         ops += 2; // Ініціалізація pow_x та j
         for (j = 0; j < 2 * i; j++) {
-            ops++; // Перевірка j < 2*i
+            ops++; 
             pow_x *= x;
-            ops++; // Множення
-            ops++; // j++
+            ops++;
+            ops++; 
         }
-        ops++; // Перевірка виходу з циклу j
+        ops++;
 
-        // 3. Вкладений цикл для обчислення i!
         double fact = 1.0;
         int k = 1;
-        ops += 2; // Ініціалізація fact та k
+        ops += 2;
         for (k = 1; k <= i; k++) {
-            ops++; // Перевірка k <= i
+            ops++;
             fact *= k;
-            ops++; // Множення
-            ops++; // k++
+            ops++; 
+            ops++;
         }
-        ops++; // Перевірка виходу з циклу k
+        ops++; 
 
-        // 4. Обчислення члена та додавання до суми
         double term = sign * pow_x / fact;
-        ops += 2; // Множення та ділення
+        ops += 2; 
         S += term;
-        ops++; // Додавання
+        ops++;
 
-        ops++; // i++
+        ops++; 
     }
-    ops++; // Перевірка виходу з outer циклу
+    ops++;
 
     printf("\n=== Спосіб 1 (Вкладені цикли) ===\n");
     printf("S = %.7f\n", S);
