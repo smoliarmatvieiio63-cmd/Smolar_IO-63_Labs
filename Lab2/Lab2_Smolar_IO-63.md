@@ -33,37 +33,61 @@
 **2.** Друга програма: Обчислює ту саму формулу через один цикл методом динамічного програмування, накопичуючи кожен новий доданок на основі попереднього (має лінійну складність і працює в десятки разів швидше).
 ---
 
+<img width="647" height="157" alt="Знімок екрана 2026-10-15 173006" src="https://github.com/user-attachments/assets/f6449288-04b5-4e86-84cb-edded14ff758" />
 
 ---
 ## Тестування програми 1
 
 ## 1
+<img width="537" height="255" alt="Знімок екрана 2026-10-15 181649" src="https://github.com/user-attachments/assets/4ff073d2-bcc3-4501-aa03-afbb2c3c7eb5" />
+<img width="446" height="218" alt="Знімок екрана 2026-10-15 182502" src="https://github.com/user-attachments/assets/9647e2c8-ee67-413b-94e5-0d0e9dd4dba7" />
+
 ## 2
+<img width="602" height="251" alt="Знімок екрана 2026-10-15 181708" src="https://github.com/user-attachments/assets/9388cc46-906d-4a4c-a8f0-8e53b4e71f0b" />
+<img width="447" height="222" alt="Знімок екрана 2026-10-15 182513" src="https://github.com/user-attachments/assets/4721a4fc-ff02-4aa1-954d-febc89a4166d" />
 
 ## 3
+<img width="757" height="280" alt="Знімок екрана 2026-10-15 181730" src="https://github.com/user-attachments/assets/73d2d7c2-25d3-44e7-9d9e-649d286b7c5d" />
+<img width="456" height="222" alt="Знімок екрана 2026-10-15 182537" src="https://github.com/user-attachments/assets/8a51e469-843e-4443-8587-13f105216e15" />
 
 ---
 ## Тестування програми 2
 
 ## 1
+<img width="537" height="255" alt="Знімок екрана 2026-10-15 181649" src="https://github.com/user-attachments/assets/1c207df5-256e-4b45-b5f4-2a9719f4e40a" />
+<img width="482" height="217" alt="Знімок екрана 2026-10-15 183437" src="https://github.com/user-attachments/assets/610cd7d9-b0ec-4c11-ab56-a27c34c885ba" />
+
 ## 2
+<img width="602" height="251" alt="Знімок екрана 2026-10-15 181708" src="https://github.com/user-attachments/assets/d6384654-29a9-4a77-a3c7-a7ce0430a9ef" />
+<img width="478" height="222" alt="Знімок екрана 2026-10-15 183449" src="https://github.com/user-attachments/assets/21c86393-ef2c-473a-8bbb-1354b4d0f5d4" />
+
 ## 3
+<img width="757" height="280" alt="Знімок екрана 2026-10-15 181730" src="https://github.com/user-attachments/assets/3a16ba46-fbb8-43d6-ab7f-186738e609ab" />
+
+<img width="491" height="220" alt="Знімок екрана 2026-10-15 183526" src="https://github.com/user-attachments/assets/192c4eca-a1dd-4c20-81b6-9867b2517a3a" />
 
 ---
 
 ### Таблиця результатів
 
 | n | 1 | 2 | 3 | 10 | 20 | 30 | 50 | 100 |
+
 |---|---|---|---|---|---|---|---|---|
-| Кількість операцій, спосіб 1 (вкладені цикли) |109|207|337|2143|7443|15943|42543|165043|
-| Кількість операцій, спосіб 2 (динамічне програмування) |29|49|69|209|409|609|1009|2009|
+
+| Кількість операцій, спосіб 1 (вкладені цикли) |38|69|109|641|2 166|4 591|12 141|46 766|
+
+| Кількість операцій, спосіб 2 (динамічне програмування) |10|15|20|55|105|155|255|505|
 ---
 ### Графік за таблицею (залежність кількості операцій від n)
 
 
+<img width="800" height="432" alt="Знімок екрана 2026-10-15 193534" src="https://github.com/user-attachments/assets/2d7bf68b-e702-47d8-963a-ba0c324ab8bb" />
+
 
 ---
 ### Графік похибки
+
+<img width="805" height="437" alt="Знімок екрана 2026-10-15 193744" src="https://github.com/user-attachments/assets/e412054c-8cff-424c-b7bd-1c8dcc0e3199" />
 
 
 ---
